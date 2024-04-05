@@ -1,0 +1,42 @@
+<!-- res/layout/nav_header_main.xml -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="@drawable/bp">
+
+    <!-- Your profile picture or icon -->
+    <ImageView
+        android:id="@+id/imageViewProfile"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/user"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="16dp"/>
+
+    <!-- User name or other information -->
+    <TextView
+        android:id="@+id/textViewUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Muhammad alfino"
+        android:fontFamily="@font/mmedium"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_below="@id/imageViewProfile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"/>
+    <TextView
+        android:id="@+id/textViewKelas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X PPLG 2"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:fontFamily="@font/mmedium"
+        android:textStyle="bold"
+        android:layout_below="@id/imageViewProfile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+</RelativeLayout>
